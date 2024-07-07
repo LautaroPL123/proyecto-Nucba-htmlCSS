@@ -1,0 +1,108 @@
+main{
+    background-image: url(./images/fondologin.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.login-form {
+    position: relative;
+	width: 400px;
+    height: 380px;
+    padding: 40px 40px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 16px;
+    box-shadow: -1px 2px 5px 5px black;
+}
+
+.login-form h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+}
+.login-form p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.login-form input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login-form input[type=email], .login-form input[type=password] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 15px;
+    margin-bottom: 25px;
+    transition: background 0.5s ease;
+}
+
+a:hover{
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.login-form input[placeholder]{
+	color: white;
+}
+
+
+.login-form a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+input[type=checkbox] {
+	width: 20%;
+}
+
+
+
+
+
+
+
+@media (max-width:769px){
+    .login-form{
+        width: 100%;
+    }
+}
+
+@media (max-width:321px){
+    .login-form{
+        border-radius: 0px;
+    }
+} 
+
