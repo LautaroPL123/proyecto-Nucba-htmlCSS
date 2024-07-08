@@ -269,7 +269,7 @@ body{
 /* SECCIÓN DE CARS */
 .cars{
     background-color: #131415;
-    padding-bottom:50px
+    padding-bottom:30px
 }
 
 .card{
@@ -1067,6 +1067,7 @@ footer h2{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 30px;
     }
 
     .slider li {
