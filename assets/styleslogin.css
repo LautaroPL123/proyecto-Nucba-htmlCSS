@@ -3,16 +3,25 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 125vh;
     display: flex;
     align-items: center;
     justify-content: center;
 	flex-direction: column;
 }
 
+.title h1{
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline;
+}
+
 .login{
     padding-top: 20px;
     padding-bottom: 50px;
+	margin-bottom: -15px;
 }
 
 
@@ -99,11 +108,21 @@ input[type=checkbox] {
     .login-form{
         width: 100%;
     }
+	.login-form p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px){
+    .title h1{
+		font-size: 20px;
+	}
 }
 
 @media (max-width:321px){
     .login-form{
         border-radius: 0px;
     }
+	
 } 
 
